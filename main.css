@@ -27,7 +27,7 @@ header h1{
 }
 
 .container{
-    max-width: 800px;
+    max-width: 640px;
     width: 100%;
     margin: 0 auto;
 }
@@ -36,7 +36,7 @@ form{
     display: flex;
     max-width: 640px;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 form input{
@@ -44,7 +44,10 @@ form input{
     background-color: #fff;
     border: none;
     border-bottom: 2px solid #000;
+    margin-right: 20px;
 }
+
+
 
 form button{
     background-color: #009432;
@@ -79,20 +82,4 @@ table td{
 
 table td img{
     height: 24px;
-}
-
-.resultado{
-    padding: 8px;
-    font-weight: bold;
-    color: #FFF;
-    background-color: #000;
-    border-radius: 3px;
-}
-
-.aprovado{
-    background-color: #009432;
-}
-
-.reprovado{
-    background-color: red;
 }
