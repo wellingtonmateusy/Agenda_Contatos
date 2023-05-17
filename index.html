@@ -18,8 +18,8 @@
             </header>
             <form id="form_contatos">
                 <input type = "text" id="nome" required placeholder="Nome do contato"/>
-                <input type="tel" id="ddd" maxlength="2" required placeholder="DDD"/>
-                <input type = "tel" id="telefone" maxlength="9" required placeholder="Telefone"/>
+                <input type="number" id="dd" required placeholder="DDD" min="11" max="99"/>
+                <input type = "number" id="telefone" required placeholder="Telefone" max="999999999"/>
                 <button type="submit">Cadastrar</button>
             </form>
             <table cellspacing="0">
@@ -30,9 +30,6 @@
                         </th>
                         <th>
                             Telefone
-                        </th>
-                        <th>
-                            Operadora
                         </th>
                     </tr>
                 </thead>

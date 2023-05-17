@@ -47,18 +47,27 @@ form input{
     margin-right: 20px;
 }
 
+form #dd{
+    width: 55px;
+}
+
+form #telefone{
+    width: 120px;
+}
+
 
 
 form button{
-    background-color: #009432;
+    background-color: #009;
     color: #FFF;
     font-size: 20px;
     border: none;
     cursor: pointer;
+	width: 120px;
 }
 
 button:hover{
-    background-color: #27ae60;
+    background-color: #27a;
 }
 
 table{
